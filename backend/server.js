@@ -16,7 +16,7 @@ connectDB();
 const app = express();
 const server = http.createServer(app);
 
-const allowedOrigin = "https://food-waste-management.vercel.app";
+const allowedOrigin = "https://food-waste-management-zeta.vercel.app";
 
 const io = new Server(server, {
   cors: {
