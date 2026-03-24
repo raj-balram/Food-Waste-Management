@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* Fix: add pointer cursor to ALL buttons and interactive elements */
+button,
+[role="button"],
+select,
+label[for],
+a {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+/* Smooth transitions everywhere */
+* {
+  transition-property: background-color, border-color, color, box-shadow, transform, opacity;
+  transition-duration: 150ms;
+  transition-timing-function: ease;
+}
