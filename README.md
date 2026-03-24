@@ -6,7 +6,7 @@ A full-stack MERN application that connects restaurants and event organizers wit
 
 ## 🌐 Live Demo
 
-👤 **App:** https://prescripto-weld-one.vercel.app
+👤 **App:** https://food-waste-management-zeta.vercel.app/
 
 ---
 
